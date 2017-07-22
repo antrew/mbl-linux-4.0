@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LINUX_VERSION=4.1.45
+LINUX_VERSION=4.9.65
 
 cd /mbl/
 
