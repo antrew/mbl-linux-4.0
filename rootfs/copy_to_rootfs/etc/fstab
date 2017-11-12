@@ -1,0 +1,10 @@
+proc      /proc        proc   defaults                         0 0
+sysfs     /sys         sysfs  defaults                         0 0
+tmpfs     /tmp         tmpfs  rw,size=100M                     0 0
+/dev/sda1 /            ext3   defaults,noatime,nodiratime      0 0
+
+# TODO swap partition
+#/dev/sda3 swap         swap   defaults                         0 0
+
+# TODO data partition
+#/dev/sda4 /mnt/data    ext4   nofail,defaults,auto,noatime,nodiratime 0 0
