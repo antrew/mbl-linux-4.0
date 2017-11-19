@@ -25,6 +25,8 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get install -y crossbuild-essential-powerpc
     apt-get install -y u-boot-tools
+    # for `make menuconfig`
+    apt-get install -y libncurses5-dev
 
     # for rootfs
     apt-get install -y binfmt-support qemu qemu-user-static debootstrap
