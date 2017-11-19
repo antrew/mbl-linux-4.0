@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/powerpc 4.1.36 Kernel Configuration
+# Linux/powerpc 4.1.45 Kernel Configuration
 #
 # CONFIG_PPC64 is not set
 
@@ -117,7 +117,10 @@ CONFIG_HIGH_RES_TIMERS=y
 #
 CONFIG_TICK_CPU_ACCOUNTING=y
 # CONFIG_BSD_PROCESS_ACCT is not set
-# CONFIG_TASKSTATS is not set
+CONFIG_TASKSTATS=y
+CONFIG_TASK_DELAY_ACCT=y
+CONFIG_TASK_XACCT=y
+CONFIG_TASK_IO_ACCOUNTING=y
 
 #
 # RCU Subsystem
@@ -196,7 +199,7 @@ CONFIG_HAVE_PERF_EVENTS=y
 # Kernel Performance Events And Counters
 #
 # CONFIG_PERF_EVENTS is not set
-# CONFIG_VM_EVENT_COUNTERS is not set
+CONFIG_VM_EVENT_COUNTERS=y
 CONFIG_SLUB_DEBUG=y
 # CONFIG_COMPAT_BRK is not set
 # CONFIG_SLAB is not set
